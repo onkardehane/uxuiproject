@@ -1,0 +1,22 @@
+.bmi{
+    width: 400px;    
+    height: 459px;
+}
+.exe{
+    width: 400px;    
+    height: 459px;
+}
+.gym{
+    width: 400px;    
+    height: 459px;
+}
+.card{
+    width: 150%;
+}
+.img-fluid{
+   height: 100%;
+    width: 1480px;
+}
+.page-footer{
+    background-color: black;
+}
