@@ -21,9 +21,10 @@ const Home = () =>{
      <div >  
        <div class="#000000 black">
        <div class="row"><div class="col s8">
-         
-       <img src={Background} class="img-fluid" alt="Responsive image"></img>
+        <img src={Background} class="img-fluid" alt="Responsive image"></img>
     </div>
+    <div class="row1" ><h2> stay fit</h2></div>
+
     </div>
     <div class="container">
     <div class="row">
@@ -89,7 +90,7 @@ const Home = () =>{
 
     </div>
 
-    <footer class="page-footer">
+   <footer class="page-footer"> 
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
