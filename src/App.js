@@ -14,7 +14,6 @@ function App() {
   <div>
     <Navbar/>
     <Route exact path='/'component={Home}/>
-    <Route path='/About'component={About}/>
     <Route path='/BMI'component={BMI}/>
     <Route path='/Exercise'component={Exercise}/>
     <Route path='/Calorie'component={Calorie}/>

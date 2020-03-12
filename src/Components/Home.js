@@ -6,15 +6,6 @@ import gym from "./img/gym.jpg";
 import "./Home.css";
 
 
-
- 
-var sectionStyle = {
-  width: "100%",
-  height: "720px",
-  backgroundImage: `url(${Background})`
-};
-
-
 const Home = () =>{
     return(
       
@@ -95,15 +86,16 @@ const Home = () =>{
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text">HUSSLE</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <p class="grey-text text-lighten-4">We utilise industry leading strength and conditioning coaches, Personal Trainers and state of the art equipment and facilities to offer all Strength HQ members the best possible training and learning experience available. We strive to help you nurture, develop and attain 
+                your goals whether it be attending one of our bootcamps using all the cool gear or more specific in the gym..</p>
               </div>
               <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
+                <h5 class="white-text">Contact Us</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/">Facebook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/">Instagram</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://twitter.com/">twitter</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://hussel@gmail.com">Email</a></li>
                 </ul>
               </div>
             </div>
@@ -111,7 +103,6 @@ const Home = () =>{
           <div class="footer-copyright">
             <div class="container">
             © 2020 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
             </div>
           </div>
         </footer>

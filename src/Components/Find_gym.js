@@ -124,14 +124,14 @@ class Find_gym extends Component {
       <div class="card" >
         <div class="card-image">
           <img class="exe" src={gym4}/>
-          <span class="card-title">Start exercise</span>
+          <span class="card-title">EVO Berlin Mitte</span>
         </div>
         <div class="card-content">
-          <p><br></br>Exercise helps people lose weight and lower the risk of some diseases. Exercising regularly decreases 
-            a person’s risk of developing certain diseases, including obesity, type 2 diabetes, and high blood pressure.</p>
+          <p>With EVO Berlin Mitte, EVO Fitness brings the first boutique fitness studio to Germany - right in the pulsating heart of the capital Berlin. In our “Induction” classes you will get to know our ultra-modern
+           club and our innovative training concept and you can get professional advice from our personal trainers. </p>
         </div>
         <div class="card-action">
-          <a href="./Exercise">Start exercise</a>
+          <a href="https://evofitness.de/clubs/berlin-mitte">EVO Berlin Mitte</a>
         </div>
       </div>
     </div>
