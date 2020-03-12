@@ -12,10 +12,10 @@ const Exercise  = () =>{
     
         <div class="col s3">
             <div class="row">
-            <div class="btn">
-               <div > <button><h1>Beginner</h1></button> </div><br></br>
+            <div class="qwe1">
+               <div ><button><h1>__Beginner__</h1></button> </div><br></br>
                <div> <button><h1>Intermediate</h1></button> </div><br></br>
-               <div> <button><h1>Professional</h1></button> </div>
+               <div> <button><h1>Professional</h1></button> </div><br></br>
             </div>
             </div>
         
