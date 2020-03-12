@@ -102,9 +102,10 @@ render() {
             </div>
             </div>
             <div class="col s4">
-                <div class="bg1"><img src={imgbim3} className="img-fluid" alt="Responsive image" className="bmiimg1"></img></div>
+                <div class="bg1">
+                  <div class="bg2">  <img src={imgbim3} className="img-fluid" alt="Responsive image" className="bmiimg1"></img></div>
                 <img src={imgbim1} className="img-fluid" alt="Responsive image" className="bmiimg1"></img>
-                <img src={imgbim2} className="img-fluid" alt="Responsive image" className="bmiimg1"></img>
+                <img src={imgbim2} className="img-fluid" alt="Responsive image" className="bmiimg1"></img></div>
             
              </div>
             

@@ -11,8 +11,8 @@ const Home = () =>{
       
      <div>  
        <div class="#000000 black">
-       <div class="row"><div class="col s8">
-        <img src={Background} class="responsive-img" ></img>
+       <div class="row"><div class="col s10">
+       <div class="hmimg"> <img src={Background} class="responsive-img" ></img></div>
     </div>
     <div class="row1" ><h2> You must expect great things of yourself before you can do them</h2></div>
 

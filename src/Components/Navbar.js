@@ -5,7 +5,7 @@ const Navbar = () =>{
     return(
         <nav>
     <div class="nav-wrapper">
-      <a href="./" class="brand-logo"><h1>HUSSLE</h1></a>
+      <Link to="./" class="brand-logo"><h1>HUSSLE</h1></Link>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><Link to="/"><h4>Home</h4></Link></li>
         <li><Link to="/BMI"><h4>BMI</h4></Link></li>
