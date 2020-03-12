@@ -1,24 +1,35 @@
 .bmiimg1{
-    height: 100%;
-     width: 700px;
+   justify-content: center;
+
      
  }
  .BMI{
-     background-color:white;
+     color: white;
      text-align:left;
      text-align: center;
+     padding-left: 40px ;
+     padding-right: 750px;
+     padding-top: 80px;
  }
  .bg{
-     color: black;
-     background:white;
+     padding-left: 40px;
+    
+     background-color: black;
      
  }
  .subbtn{
-color: black;
-font-weight: bold;
+            color: black;
+            font-weight: bold;
+            justify-content: center;
+
  }
 .input1{
+    
     border-radius: 20px;
     color: blanchedalmond;  
     text-align: center;
+}
+.bg1{
+    padding-top: 60px;
+    padding-left:80px ;
 }

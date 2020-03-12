@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
-import imgbim1 from "./img/bmi1.png"
+import imgbim1 from "./img/bmi3.png"
+import imgbim2 from "./img/bmi4.png"
+import imgbim3 from "./img/bmi5.png"
 import "./BMI.css"
 class BMI extends Component{
     constructor(props){
@@ -59,7 +61,8 @@ render() {
 <div className="bg">
         <div class="row">
         
-        <div class="col s6"> 
+        <div class="col s12"> 
+        <div class="col s4">
          <div className='container'>
         <div className="BMI">
                 <div className="BMI-header">
@@ -95,18 +98,41 @@ render() {
                 }
             </div>
 
+
             </div>
-            
             </div>
+            <div class="col s4">
+                <div class="bg1"><img src={imgbim3} className="img-fluid" alt="Responsive image" className="bmiimg1"></img></div>
+                <img src={imgbim1} className="img-fluid" alt="Responsive image" className="bmiimg1"></img>
+                <img src={imgbim2} className="img-fluid" alt="Responsive image" className="bmiimg1"></img>
             
-            
-            <div class="col s6">
-                
-                <img src={imgbim1} class="img-fluid" alt="Responsive image" className="bmiimg1"></img>
-                
              </div>
+            
+            </div>
+            
+            
+            
       </div>
-       
+       <br></br>
+
+
+       <br></br>
+       <br></br><br></br>
+       <br></br>
+       <br></br>
+       <br></br>
+       <br></br>
+       <br></br>
+       <br></br>
+       <br></br>
+       <br></br>
+       <br></br>
+       <br></br>
+       <br></br>
+       <br></br>
+       <br></br>
+       <br></br>
+
 
        
       </div>

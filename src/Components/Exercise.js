@@ -1,23 +1,30 @@
 import React from 'react';
+import "./Exercise.css"
 
 
 
 
 const Exercise  = () =>{
     return(
-      
+      <div className="exemain">
         <div class="row">
+            
     
-          <div class="col s3">
-          <button > Beginner</button> <br></br>
-          <button> Intermediate</button>
+        <div class="col s3">
+            <div class="row">
+            <div class="btn">
+               <div > <button><h1>Beginner</h1></button> </div><br></br>
+               <div> <button><h1>Intermediate</h1></button> </div><br></br>
+               <div> <button><h1>Professional</h1></button> </div>
+            </div>
+            </div>
+        
           </div>
     
           <div class="col s9">
           <div class="col s5">
           <div class="video-container">
-          <iframe width="788" height="443" src="https://www.youtube.com/embed/gC_L9qAHVJ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         </div>
+          <iframe width="779" height="438" src="https://www.youtube.com/embed/89e518dl4I8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         </div>
 
          </div>
          <div class="col s5">
@@ -54,16 +61,14 @@ CARDIO (see CARDIO section below) </p>
 
          <div class="col s5">
           <div class="video-container">
-          <iframe width="788" height="443" src="https://www.youtube.com/embed/gC_L9qAHVJ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         </div>
+          <iframe width="779" height="438" src="https://www.youtube.com/embed/eE7dzM0iexc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         </div>
          
 
 
          </div>
          <div class="col s5">
           <div class="video-container">
-          <iframe width="788" height="443" src="https://www.youtube.com/embed/gC_L9qAHVJ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         </div>
+          <iframe width="779" height="438" src="https://www.youtube.com/embed/jv31A4Ab4nA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         </div>
 
          </div>
          <div class="col s5">
@@ -98,7 +103,7 @@ CARDIO (see CARDIO section below)</p>
         
 
         
-        
+          </div>
     )
 }
 

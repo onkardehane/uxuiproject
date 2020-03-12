@@ -7,6 +7,7 @@ import gym3 from "./img/g3.jpg";
 import gym4 from "./img/g4.jpg";
 import gym5 from "./img/g5.jpg";
 import gym6 from "./img/g6.jpg";
+import "./Find_gym.css"
 
 
 
@@ -15,7 +16,8 @@ class Find_gym extends Component {
       super();
       this.state = {
         initialItems : [
-         ""
+           
+         
         ],
         items: []
       };
@@ -45,8 +47,7 @@ class Find_gym extends Component {
   
     render() {
       return (
-
-        <div>
+<div className="findgym">
         <React.Fragment>
             <label><h3>Enter the name of city</h3></label>
           <input type="text" onChange={this.filterList} />
@@ -58,65 +59,66 @@ class Find_gym extends Component {
         </React.Fragment>
 
         <div class="row">
+            <div>
 
-        <div class="col s4">
+        <div class="col s3">
       <div class="row">
     <div class="col-sm-8">
       <div class="card" >
         <div class="card-image">
           <img class="exe" src={gym1}/>
-          <span class="card-title">Start exercise</span>
+          <span class="card-title">Gym Pfitzenmeier Premium Club Heidelberg</span>
         </div>
         <div class="card-content">
-          <p><br></br>Exercise helps people lose weight and lower the risk of some diseases. Exercising regularly decreases 
-            a person’s risk of developing certain diseases, including obesity, type 2 diabetes, and high blood pressure.</p>
+          <p><br></br>Our fitness studios can be found in Mannheim, Schwetzingen, Heidelberg, Wiesloch, Speyer, Neustadt, Karlsruhe and Bensheim.</p>
         </div>
         <div class="card-action">
-          <a href="./Exercise">Start exercise</a>
+          <a href="https://www.pfitzenmeier.de/">Gym Pfitzenmeier</a>
         </div>
       </div>
     </div>
   </div>
 
       </div>
-      <div class="col s4"><div class="row">
+      <div class="col s3"><div class="row">
     <div class="col-sm-8">
       <div class="card">
         <div class="card-image">
           <img class="bmi" src={gym2}/>
-          <span class="card-title">BMI(Body mass index)</span>
+          <span class="card-title">clever fit Heidelberg</span>
         </div>
         <div class="card-content">
-          <p>Body mass index, or BMI, is a measure of body size. It combines a person’s weight with their height. 
-            The results of a BMI measurement can give an idea about whether a person has the correct weight for their height</p>
+          <p>clever fit motivates you to achieve top performance. The modern equipment, the wide range of training courses and
+               the friendly atmosphere in our fitness studios make it easy for you to exercise regularly.</p>
         </div>
         <div class="card-action">
-          <a href="./BMI">BMI(Body mass index)</a>
+          <a href="https://www.clever-fit.com/de-de/probetraining/studio/clever-fit-heidelberg/">Start now and find your clever fit gym on site!</a>
         </div>
       </div>
     </div>
   </div>
 </div>
-      <div class="col s4"><div class="row">
+      <div class="col s3"><div class="row">
     <div class="col-sm-8">
       <div class="card">
         <div class="card-image">
           <img class="gym" src={gym3}/>
-          <span class="card-title">Find gym</span>
+          <span class="card-title">VeniceBeach Heidelberg Lifestyle Fitness</span>
         </div>
         <div class="card-content">
-          <p>Going to the gym every day is one way to accomplish some goals. Regular exercise carries many physical and mental health benefits. It boosts the brainpower and sharpens our memory, one can improve self confidence. 
+          <p>Our portfolio ranges from exercises to correct bad posture to performance-oriented planning
+               for the fastest possible muscle and strength building as well as maximum fat loss.
             </p>
         </div>
         <div class="card-action">
-          <a href="./Find_gym">Find gym</a>
+          <a href="https://www.venicebeach-fitness.de/clubs/lifestyle-fitness/heidelberg-bahnstadt.html">VeniceBeach Heidelberg</a>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="col s4">
+<div class="col s3">
       <div class="row">
     <div class="col-sm-8">
       <div class="card" >
@@ -136,7 +138,7 @@ class Find_gym extends Component {
   </div>
 
       </div>
-      <div class="col s4"><div class="row">
+      <div class="col s3"><div class="row">
     <div class="col-sm-8">
       <div class="card">
         <div class="card-image">
@@ -154,19 +156,20 @@ class Find_gym extends Component {
     </div>
   </div>
 </div>
-      <div class="col s4"><div class="row">
+      <div class="col s3"><div class="row">
     <div class="col-sm-8">
       <div class="card">
         <div class="card-image">
           <img class="gym" src={gym6}/>
-          <span class="card-title">Find gym</span>
+          <span class="card-title">Berlin Gym -Verein der Kampfkünste</span>
         </div>
         <div class="card-content">
-          <p>Going to the gym every day is one way to accomplish some goals. Regular exercise carries many physical and mental health benefits. It boosts the brainpower and sharpens our memory, one can improve self confidence. 
+          <p>With the central location of our training facilities dojo rooms of Fit at Rosenthaler Platz , walking distance to Alex, 
+              as well as at SG EBT eV in Friedrichshain in Samariterstrasse , we are easily accessible from all of Berlin. 
             </p>
         </div>
         <div class="card-action">
-          <a href="./Find_gym">Find gym</a>
+          <a href="https://www.berlingym.de/">Find gym</a>
         </div>
       </div>
     </div>
@@ -174,8 +177,7 @@ class Find_gym extends Component {
 </div>
 
 </div>
-
-
+</div>
 
 </div>
 
