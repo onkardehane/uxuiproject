@@ -25,7 +25,7 @@ const Home = () =>{
       <div class="card" >
         <div class="card-image">
           <img class="exe" src={exercise}/>
-          <span class="card-title">Start exercise</span>
+          <span class="card-title ">Start exercise</span>
         </div>
         <div class="card-content">
           <p><br></br>Exercise helps people lose weight and lower the risk of some diseases. Exercising regularly decreases 
